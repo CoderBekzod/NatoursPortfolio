@@ -1,0 +1,19 @@
+#header {
+    position: relative;
+    margin: 30px 30px 0 30px;
+    height: 90vh;
+    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.849), rgba(40, 180, 131, 0.774)), url('/img/hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    clip-path: polygon(0 0, 100% 0, 100% 79%, 0 100%);
+}
+
+.logo_box {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.logo_box_img {
+    width: 75px;
+}
