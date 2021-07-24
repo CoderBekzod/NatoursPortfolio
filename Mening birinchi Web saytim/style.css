@@ -36,10 +36,48 @@
     font-size: 60px;
     letter-spacing: 40px;
     font-weight: 500;
+    animation: ongga 1.5s ease-in-out;
 }
 
 .headings_past {
     font-weight: 550;
     font-size: 20px;
     letter-spacing: 15px;
+    animation: chapga 1.5+s ease-in-out;
+}
+
+
+/* animation */
+
+
+/* Tepa qism uchun animatsiya */
+
+@keyframes ongga {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(40px);
+        opacity: 0.66;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes chapga {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(-40px);
+        opacity: 0.66;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
