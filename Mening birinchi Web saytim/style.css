@@ -1,11 +1,15 @@
 #header {
     position: relative;
-    margin: 30px 30px 0 30px;
     height: 90vh;
     background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.849), rgba(40, 180, 131, 0.774)), url('/Mening birinchi Web saytim/img/hero.jpg');
     background-position: center;
     background-repeat: no-repeat;
     clip-path: polygon(0 0, 100% 0, 100% 79%, 0 100%);
+    z-index: 2;
+}
+
+body {
+    padding: 30px;
 }
 
 .logo_box {
@@ -111,4 +115,26 @@
 .btn-white:hover::after {
     transform: scale(1.5);
     opacity: 0;
+}
+
+#second_section {
+    top: -220px;
+    position: relative;
+    background-color: #e6e6e6;
+    height: 600px;
+    width: 100%;
+}
+
+.headings_second {
+    position: relative;
+    top: 200px;
+    left: 30%;
+    font-family: sans-serif;
+    color: rgba(96, 200, 96, 0.849);
+    font-size: 40px;
+}
+
+.headings_second:hover {
+    transform: skewY( 2deg) skewX( 2deg) scale(1.1);
+    text-shadow: 10px 20px 30px gray;
 }
