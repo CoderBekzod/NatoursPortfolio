@@ -123,6 +123,7 @@ body {
     background-color: #e6e6e6;
     height: 600px;
     width: 100%;
+    padding-bottom: 100px;
 }
 
 .headings_second {
@@ -158,6 +159,7 @@ p {
     font-family: sans-serif;
     color: rgb(10, 189, 49);
     border-bottom: 1px solid rgb(10, 189, 49);
+    margin-bottom: 22px;
 }
 
 .green_button:hover {
